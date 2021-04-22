@@ -1,1 +1,0 @@
-# yechs.github.com
