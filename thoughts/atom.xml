@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuye.dev/thoughts"/>
     <subtitle>Ye Shu Blog</subtitle>
-    <icon>https://shuye.dev/img/favicon.ico</icon>
+    <icon>https://shuye.dev/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Me and My Broken Site(s)]]></title>
         <id>welcome</id>
