@@ -1,0 +1,1 @@
+(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[462],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent Thoughts","items":[{"title":"Me and My Broken Site(s)","permalink":"/thoughts/welcome"}]}')}}]);

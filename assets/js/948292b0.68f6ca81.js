@@ -1,0 +1,1 @@
+(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[703],{2322:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/thoughts","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Some thoughts from Ye Shu","blogTitle":"Thoughts"}')}}]);
