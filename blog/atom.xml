@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://shuye.dev/blog</id>
+    <title>Ye Shu Blog</title>
+    <updated>2021-04-22T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://shuye.dev/blog"/>
+    <subtitle>Ye Shu Blog</subtitle>
+    <icon>https://shuye.dev/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Me and My Broken Site(s)]]></title>
+        <id>welcome</id>
+        <link href="https://shuye.dev/blog/welcome"/>
+        <updated>2021-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My personal website is finally up and running today! It is already 821 days after I purchased this domain (huh I'm such big a procrastinator). I also have a blog running on the subdomain blog.shuye.dev for some longer and possibly non tech-related blog posts.]]></summary>
+    </entry>
+</feed>

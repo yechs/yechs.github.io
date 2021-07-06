@@ -1,1 +1,0 @@
-(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[390],{3882:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/thoughts/tags","slug":"non-tech","name":"non-tech","count":1,"permalink":"/thoughts/tags/non-tech"}')}}]);
