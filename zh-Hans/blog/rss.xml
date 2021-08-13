@@ -4,9 +4,16 @@
         <title>Ye Shu Blog</title>
         <link>https://shuye.dev/zh-Hans/blog</link>
         <description>Ye Shu Blog</description>
-        <lastBuildDate>Thu, 22 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[内存泄漏 与 malloc chunk]]></title>
+            <link>https://shuye.dev/zh-Hans/blog/malloc_chunk</link>
+            <guid>malloc_chunk</guid>
+            <pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[我为什么要写这篇文章]]></description>
+        </item>
         <item>
             <title><![CDATA[Me and My Broken Site(s)]]></title>
             <link>https://shuye.dev/zh-Hans/blog/welcome</link>

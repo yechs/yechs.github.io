@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuye.dev/blog</id>
     <title>Ye Shu Blog</title>
-    <updated>2021-04-22T00:00:00.000Z</updated>
+    <updated>2021-08-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuye.dev/blog"/>
     <subtitle>Ye Shu Blog</subtitle>
     <icon>https://shuye.dev/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Memory Leak & malloc chunks]]></title>
+        <id>malloc_chunk</id>
+        <link href="https://shuye.dev/blog/malloc_chunk"/>
+        <updated>2021-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How it all started]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Me and My Broken Site(s)]]></title>
         <id>welcome</id>
