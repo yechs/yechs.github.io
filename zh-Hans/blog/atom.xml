@@ -13,6 +13,10 @@
         <link href="https://shuye.dev/zh-Hans/blog/malloc_chunk"/>
         <updated>2021-08-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我为什么写这篇文章]]></summary>
+        <author>
+            <name>Ye Shu</name>
+            <uri>https://github.com/yechs</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Me and My Broken Site(s)]]></title>
@@ -20,5 +24,9 @@
         <link href="https://shuye.dev/zh-Hans/blog/welcome"/>
         <updated>2021-04-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[My personal website is finally up and running today! It is already 821 days after I purchased this domain (huh I'm such big a procrastinator). I also have a blog running on the subdomain blog.shuye.dev for some longer and possibly non tech-related blog posts.]]></summary>
+        <author>
+            <name>Ye Shu</name>
+            <uri>https://github.com/yechs</uri>
+        </author>
     </entry>
 </feed>
