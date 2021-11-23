@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[354],{8978:function(s){s.exports=JSON.parse('{"allTagsPath":"/zh-Hans/blog/tags","slug":"/zh-Hans/blog/tags/pwn","name":"pwn","count":1,"permalink":"/zh-Hans/blog/tags/pwn"}')}}]);
