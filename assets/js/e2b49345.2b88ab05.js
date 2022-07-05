@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[59],{8623:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/pwn","name":"pwn","count":1,"permalink":"/blog/tags/pwn"}')}}]);
