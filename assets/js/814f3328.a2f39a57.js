@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent Posts","items":[{"title":"Memory Leak & malloc chunks","permalink":"/blog/malloc_chunk","unlisted":false},{"title":"Me and My Broken Site(s)","permalink":"/blog/welcome","unlisted":false}]}')}}]);

@@ -25,7 +25,6 @@
 <p>巧合的是，我和朋友 <a href="https://guozhen.dev/" target="_blank" rel="noopener noreferrer">@gzhding</a> 刚好在最近的一次 CTF 比赛中合作了一道 堆利用 (heap exploitation) 的题目。因为这份经历，我学会了如何使用 <code>gdb</code> 调试并查看堆上的内存，以借其管中窥豹。</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_BuS1"><p>注：我先写成了本文的英文版，之后才试图将其译回中文。因此如有可能的话，请<a href="https://shuye.dev/blog/malloc_chunk/" target="_blank" rel="noopener noreferrer">以英文阅读本文</a>，以避免一些因为翻译质量导致的语句不顺与理解困难。</p></div></div>
 <!-- -->
-<!-- -->
 <div class="tocCollapsible_ETCw"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本页总览</button></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-memory-leaks">什么是内存泄漏<a href="https://shuye.dev/zh-Hans/blog/malloc_chunk#what-are-memory-leaks" class="hash-link" aria-label="标题的直接链接" title="标题的直接链接">​</a></h2>
 <p>我们知道 <a href="https://www.cplusplus.com/doc/tutorial/dynamic/" target="_blank" rel="noopener noreferrer">C++ 能够在堆上动态地分配内存</a>。一个常见的例子是使用 <code>new[]</code> 创建数组，以及 <code>delete[]</code> 删除数组。</p>
@@ -158,6 +157,7 @@ to extend or adapt this code.</p>
 <li>StackOverflow. <a href="https://stackoverflow.com/questions/197675/how-does-delete-know-the-size-of-the-operand-array" target="_blank" rel="noopener noreferrer">"How does delete[] know the size of the operand array?"</a></li>
 </ul>
 <p>顺带一提，在搜索内存泄漏的时候，我在 Brookhaven National Lab 的域名下面发现了一个 大亚湾反应堆中微子实验的 wiki 页面 <a href="https://wiki.bnl.gov/dayabay/index.php?title=Dealing_With_Memory_Leaks" target="_blank" rel="noopener noreferrer">"Dealing With Memory Leaks"</a>。我都不知道大亚湾反应堆还有一个国际研究项目 😂</p>
+<!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://shuye.dev/zh-Hans/blog/malloc_chunk#footnote-label" class="hash-link" aria-label="标题的直接链接" title="标题的直接链接">​</a></h2>
 <ol>
 <li id="user-content-fn-1-c7d135">

@@ -24,7 +24,6 @@
 <p>While the Stack Overflow question <a href="https://stackoverflow.com/questions/197675/how-does-delete-know-the-size-of-the-operand-array" target="_blank" rel="noopener noreferrer">"How does delete[] 'know' the size of the operand array?"</a> sort of answers the second question, I decide to dig deeper into the actual memory area.</p>
 <p>Coincidentally, I have worked on a heap exploitation problem with my friend <a href="https://guozhen.dev/" target="_blank" rel="noopener noreferrer">@gzhding</a> in a past CTF event. Thanks to the experience, I learned how to use <code>gdb</code> to dump the heap memory and gain some insight into the problem.</p>
 <!-- -->
-<!-- -->
 <div class="tocCollapsible_ETCw"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-memory-leaks">What are Memory Leaks?<a href="https://shuye.dev/blog/malloc_chunk#what-are-memory-leaks" class="hash-link" aria-label="Direct link to What are Memory Leaks?" title="Direct link to What are Memory Leaks?">​</a></h2>
 <p>We know that <a href="https://www.cplusplus.com/doc/tutorial/dynamic/" target="_blank" rel="noopener noreferrer">C++ can dynamically allocate memory on the heap</a>. A common example is to use <code>new[]</code> to create an array and <code>delete[]</code> to remove it.</p>
